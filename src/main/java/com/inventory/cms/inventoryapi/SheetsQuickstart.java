@@ -56,6 +56,9 @@ public class SheetsQuickstart {
         LocalServerReceiver receiver = new LocalServerReceiver.Builder().setPort(8888).build();
         return new AuthorizationCodeInstalledApp(flow, receiver).authorize("user");
     } 
+    public updateSheet(){
+        
+    }
 
     
     public static void main(String... args) throws IOException, GeneralSecurityException {
